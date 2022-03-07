@@ -1,0 +1,50 @@
+<h1>Primeiros codigos com HTML e JavaScript</h1>
+
+
+<script>
+
+
+function pulaLinha() {
+	document.write("<br>");
+	document.write("<br>");
+	}
+
+function mostra(frase) {
+	document.write(frase);
+	pulaLinha();
+	}
+
+// Calculo IMC aplicação
+/*
+function calculaImc(altura, peso) {
+	var imc = peso / (altura * altura);
+	mostra("O imc calculado é " + imc);
+	}
+
+calculaImc(1.71, 73);
+calculaImc(1.72, 68);
+*/
+
+// Calculo IMC com retorno de parametro
+
+function calculaImc(altura, peso) {
+	//var imc = peso / (altura * altura);
+	//return imc;
+	  return peso / ( altura * altura );
+	}
+
+var imcFlavio = calculaImc(1.71, 73);
+var imcAmigo = calculaImc(1.72, 68);
+
+mostra(imcFlavio);
+mostra(imcAmigo)
+
+// soma de imc
+
+// var totalImc = imcFlavio + imcAmigo; //Pode ser assim.
+var totalImc = calculaImc(1.71, 73) + calculaImc(1.72, 68); // Pode ser assim
+document.write(" A soma dos imc's é: " + totalImc);
+
+
+
+</script>
