@@ -1,0 +1,33 @@
+<h1>Primeiros codigos com HTML e JavaScript</h1>
+
+
+<script>
+
+
+function pulaLinha(){
+	document.write("<br>");
+	document.write("<br>");
+	}
+
+function mostra(frase){
+	document.write(frase);
+	pulaLinha();
+	}
+
+
+var totalPessoas = parseInt(prompt("Qual a quantidade de pessoas na familia?"));
+var numero = 1;
+var totalIdades = 0;
+
+while(numero <= totalPessoas){
+    var idade = parseInt(prompt("Informe a idade!"));
+    totalIdades = totalIdades + idade;
+    numero++;
+}
+
+var mediaIdades = totalIdades/totalPessoas;
+mostra("A media das idades dos familiares é: " + mediaIdades);
+mostra("FIM")
+
+
+</script>

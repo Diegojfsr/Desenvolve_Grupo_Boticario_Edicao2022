@@ -1,0 +1,26 @@
+<h1>Primeiros codigos com HTML e JavaScript</h1>
+
+
+<script>
+
+
+function pulaLinha(){
+	document.write("<br>");
+	document.write("<br>");
+	}
+
+function mostra(frase){
+	document.write(frase);
+	pulaLinha();
+	}
+
+var limite = parseInt(prompt("Entre com a data limite!"));
+var anoCopa = 1930;
+while(anoCopa <= limite){
+    mostra(anoCopa + " Teve copa!");
+    anoCopa = anoCopa + 4;
+}
+mostra("FIM!");
+
+
+</script>
