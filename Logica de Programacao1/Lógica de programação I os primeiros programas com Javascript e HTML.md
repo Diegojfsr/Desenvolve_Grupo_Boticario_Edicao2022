@@ -8,7 +8,7 @@
 - Repita tarefas com laços, loops, fors e whiles<br>
 - Mostre seus programas para seus colegas<br>
 
-<h4>Aulas</h4>
+<h3>Aulas</h3>
 
 <h4>Comece a programar hoje</h4>
 01-Converse com seu navegador<br>
