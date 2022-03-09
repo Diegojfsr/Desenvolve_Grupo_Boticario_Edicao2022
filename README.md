@@ -2,7 +2,7 @@
 Repositório destinado a armazenar e documentar o meu passo a passo no programa Desenvolve, realizado pelo Grupo Boticário .
 
 <h3> Semana 001 </h3>
-Curso de Lógica de programação I: os primeiros programas com Javascript e HTM.
+Lógica de programação I: os primeiros programas com Javascript e HTM.
 
 
 <h3> Semana 002 </h3>
